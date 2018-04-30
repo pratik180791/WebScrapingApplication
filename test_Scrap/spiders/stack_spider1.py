@@ -30,7 +30,7 @@ class StackSpider1Spider(CrawlSpider):
             item = TestScrapItem()
             item['title'] = question.xpath(
                 'a[@class="question-hyperlink"]/text()').extract()[0]
-            item['url'] = question.xpath(
+            item['url'] = 'https://stackoverflow.com'+question.xpath(
                 'a[@class="question-hyperlink"]/@href').extract()[0]
             item['date']=now
             yield item
