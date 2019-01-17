@@ -1,5 +1,6 @@
 # WebScrapingApplication
 Side project for learning Web Scraping using Python and MongoDB
+
 Step 1:
 Download and Run MongoDB Server 
 
